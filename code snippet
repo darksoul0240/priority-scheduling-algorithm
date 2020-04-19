@@ -30,7 +30,7 @@ int main()
     for(i=0;i<Number_of_Process;i++)
     {
         flag=i;
-        for(j=i+1;j<Number_of_Process;j++)
+        for( j=i+1;j<Number_of_Process;j++ )
         {
             if(Prior[j]<Prior[flag])
             flag=j;
